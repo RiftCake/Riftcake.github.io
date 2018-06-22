@@ -1,0 +1,35 @@
+#links{
+    border-style: solid;
+    border-color: black;
+    background-color: #2C3339;
+    color:#595859;
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;    
+    
+    
+}
+a{
+    color: #939394
+}
+
+.link {
+    color: #939394
+}
+header{
+    background-image: url("http://www.gidsmail.info/wp-content/uploads/cool-twitter-banners-pin-by-ashtyn-barr-on-twitter-headers-pinterest-header-and.jpg")
+}
+body{
+    margin: 0px;
+background-image: url("http://getwallpapers.com/wallpaper/full/b/7/2/1096936-gorgerous-cool-dark-background-1920x1080-pictures.jpg")   
+}
+h1{
+    margin: 0px;
+}
+#text{
+    color:#969596
+}
+#header-font{ 
+    font-family: 'Cookie';
+    color: #612722;
+}
