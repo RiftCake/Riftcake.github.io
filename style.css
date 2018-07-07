@@ -95,7 +95,7 @@ header {
     bottom: 0;
     animation-name: float1;
     animation-direction: alternate;
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
   }
   
