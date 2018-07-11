@@ -7,17 +7,16 @@
     justify-content: center;
     justify-content: space-around;
 }
-button{
-  background-color: #2C3339;
-  
-  border-radius: 45%;
-  color: white;
-  border-color: black;
+a :hover  {
+  background: rgba(82, 84, 201, 0.678);
+  border-color: transparent;
 }
 
 
-a {
-    color: #939394
+button {
+    color: #939394;
+    background-color: #2C3339;
+    border-color:transparent;
 }
 
 .link {
