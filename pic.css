@@ -1,0 +1,85 @@
+a :hover  {
+    background: rgba(147, 149, 226, 0.678);
+    border-color: black;
+}
+button {
+    color:#00374C;
+    background-color:white;
+    border-color:black;
+    font-size: 17px;
+    opacity: 0.75;
+}
+
+body, html {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  input {
+    position: absolute;
+    opacity: 0;
+    margin-top: 95vh;
+    cursor: pointer;
+  }
+  
+  label {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: solid 2px white;
+    border-radius: 999px;
+    background-color: transparent;
+    margin: 95vh 6px 0 6px;
+    z-index: 2;
+    cursor: pointer;
+    transition-duration: .4s;
+  }
+  
+  input:checked + label{
+    background-color: white;
+  }
+  
+  .slide {
+    position: absolute;
+    background-color: grey;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transform: translateX(-100%);
+    transition-duration: .4s;
+    opacity: 0;
+  }
+  
+  input:checked ~ .slide {
+    transform: translateX(100%);
+  }
+  
+  input:checked + label + .slide {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  
+  .bg1{
+    background-image: url(https://files.slack.com/files-pri/TB2HXLE2F-FBNLEEQQL/img_0742.jpg);
+  }
+  .bg2{
+    background-image: url(https://files.slack.com/files-pri/TB2HXLE2F-FBNPM1KBM/img_0883.jpg);
+  }
+  .bg3{
+    background-image: url(https://files.slack.com/files-pri/TB2HXLE2F-FBNPM1PL3/img_1050.jpg);
+  }
+  .bg4{
+    background-image: url(https://files.slack.com/files-pri/TB2HXLE2F-FBNTHP7RQ/img_0918.jpg);
+  }
+  .bg5{
+    background-image: url(https://files.slack.com/files-pri/TB2HXLE2F-FBNLEDMN0/img_1031.jpg);
+  }
