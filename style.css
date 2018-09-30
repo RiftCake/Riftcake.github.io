@@ -11,6 +11,9 @@ a :hover  {
   background: rgba(82, 84, 201, 0.678);
   border-color: transparent;
 }
+.sticky{
+  position: sticky;
+}
 
 
 button {
@@ -26,15 +29,15 @@ button {
 
 body {
     margin: 0px;
-    background-image: url("https://jakobscreativity.files.wordpress.com/2012/02/hexagon-jakob.jpg");
-}
+    background: linear-gradient(to bottom, #43c6ac, #191654);
+    }
 
 h1 {
     margin: 0px;
 }
 
 #text {
-    color: #08224C
+    color: black;
 }
 
 #header-font {
